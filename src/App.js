@@ -1,12 +1,14 @@
 import logo from './logo.png';
+import gif_logo from './gif_meme_team2.gif';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <p>Team 2 Saving Uranus</p>
-      <img src = {logo} width="300" height="300"></img>
+      <p>Check Back Later !</p>
+      {/* <img src = {logo} width="300" height="300"></img> */}
+      <img src = {gif_logo} width="80%" ></img>
       </header>
     </div>
   );
